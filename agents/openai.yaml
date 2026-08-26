@@ -1,0 +1,7 @@
+interface:
+  display_name: "SOL 总负责模式"
+  short_description: "让 SOL 按项目动态组队、选择模型并统筹多窗口交付验收"
+  default_prompt: "使用 $sol-project-manager 启动 SOL 总负责模式；先评估项目，再动态任命角色和模型，通过 SOL 中转多窗口交付、返工与验收。"
+
+policy:
+  allow_implicit_invocation: true
