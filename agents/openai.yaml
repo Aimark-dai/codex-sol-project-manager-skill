@@ -1,7 +1,7 @@
 interface:
   display_name: "SOL 总负责模式"
-  short_description: "让 SOL 按能力调度 Codex 官方模型并统筹交付验收"
-  default_prompt: "使用 $sol-project-manager 启动 SOL 总负责模式，按质量、复杂度、风险、规模、成本和可验证性选择 Codex 官方模型并完成验收。"
+  short_description: "让 SOL 组建可见多窗口团队并统筹开发验收"
+  default_prompt: "使用 $sol-project-manager 启动可见多窗口的 SOL 总负责模式，按项目需要创建开发和独立复核任务并完成验收。"
 
 policy:
   allow_implicit_invocation: false
