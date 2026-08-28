@@ -1,7 +1,7 @@
 interface:
   display_name: "SOL 总负责模式"
   short_description: "让 SOL 用最少窗口合理调度模型并统筹验收"
-  default_prompt: "使用 $sol-project-manager 启动 SOL 总负责模式，按任务难度选择模型和最少够用的可见窗口，并控制 Token 完成交付。"
+  default_prompt: "使用 $sol-project-manager 启动 SOL 总负责模式，按任务难度选择模型和最少够用的可见窗口，主动轮换过长的总控上下文并控制 Token 完成交付。"
 
 policy:
   allow_implicit_invocation: false
